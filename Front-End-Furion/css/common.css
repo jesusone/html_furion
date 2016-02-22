@@ -54,10 +54,6 @@ img{width:auto\9;height:auto;max-width:100%;vertical-align:middle;-ms-interpolat
   margin-top: -15px;
 }
 
-.title-ordinal {
-  top: 0;
-}
-
 .block-achievements .title-ordinal {
     margin-top: 54px;
 }
@@ -417,7 +413,17 @@ a.btn-continue span{vertical-align: middle;}
   animation-delay: 0.6s;
 }
 
-.sorting-portfolio{text-align: center; display: table;table-layout: fixed;}
+.sorting-portfolio{text-align: center;
+	display: table;
+	table-layout: fixed;
+	position: relative; 
+	left: 50%; 
+	-webkit-transform: translate( -50%, 0px);
+	-khtml-transform: translate( -50%, 0px);
+	-moz-transform: translate( -50%, 0px);
+	-ms-transform: translate( -50%, 0px);
+	-o-transform: translate( -50%, 0px);
+	transform: translate( -50%, 0px);}
 .sorting-portfolio li{padding:40px 8px;display: table-cell;}
 .sorting-portfolio li a {color: #999;font-size: 14px;font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform: uppercase;}
 .sorting-portfolio li a:hover {color: #000;}    
